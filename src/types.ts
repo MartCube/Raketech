@@ -1,9 +1,3 @@
-export enum MovieType {
-	'movie',
-	'series',
-	'episode'
-}
-
 export interface Movie {
 	imdbID: string,
 	Title: string,
@@ -14,6 +8,7 @@ export interface Movie {
 
 export interface OMDbAPI {
 	Search: Movie[],
-	Error: string,
+	totalResults: string
 	Response: boolean,
+	Error: string,
 }

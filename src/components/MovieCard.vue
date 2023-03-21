@@ -23,8 +23,7 @@ defineProps<{ data: Movie }>()
 	margin-bottom: 2rem;
 
 	img {
-		// width: 2.5rem;
-		height: 89px;
+		width: 5.5rem;
 		margin-right: 2rem;
 	}
 }
